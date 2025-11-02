@@ -52,28 +52,30 @@ Las siguientes capturas demuestran la funcionalidad completa del proyecto:
 
 Se crea un empleado (`POST` exitoso) y luego se lee el registro (`GET` exitoso), demostrando la funcionalidad básica de la API.
 
-![POST Exitoso](docs\assets\post.png)
-![GET Exitoso](docs\assets\get.png)
+![POST Exitoso](docs/assets/post.png)
+![GET Exitoso](docs/assets/get.png)
 
 
 ### 2. Actualización y Eliminación (PUT y DELETE)
 
 Se actualiza un campo del empleado (`PUT`) y luego se elimina el registro (`DELETE`), verificando que al intentar leerlo (`GET`), la API devuelve `404 Not Found`.
 
-![PUT Exitoso](docs\assets\put.png)
-![GET 404 NOT FOUND](docs\assets\geterror.png)
+![PUT Exitoso](docs/assets/put.png)
+![DELETE Exitoso](docs/assets/delete.png)
+![DELETE Exitoso Tabla](docs/assets/delete2.png)
+![GET 404 NOT FOUND](docs/assets/geterror.png)
 
 ### 3. Visualización Frontend (Thymeleaf)
 
 La vista web demuestra que el backend (`EmployeeService.getAllEmployees()`) está siendo consumido por el frontend (`employees.html`), completando el ciclo Full-Stack.
 
-![TABLA THYMELEAF](docs\assets\tablaThymeleaf.png)
+![TABLA THYMELEAF](docs/assets/tablaThymeleaf.png)
 
 ### 4. Persistencia en Base de Datos (H2 Console)
 
 Verificación directa en la base de datos (H2) de que los datos insertados a través de la API se persisten correctamente.
 
-![H2 CONSOLE](docs\assets\h2Console.png)
+![H2 CONSOLE](docs/assets/h2Console.png)
 
 ---
 
